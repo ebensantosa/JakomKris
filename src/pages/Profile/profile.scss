@@ -1,0 +1,38 @@
+.content-page{
+    .profile-page{
+        width: auto;
+        height: auto;
+        background-color: white;
+        padding: 24px;
+
+        .title {
+            margin-bottom: 72px;
+           font-weight: bold; 
+           font-size: 24px; 
+           text-align: center;
+           border-bottom: 10px;
+           padding-bottom: 28px;
+           border-bottom: 1px solid #D3D3D3;
+        }
+        #label-desc{
+            font-size: 14px;
+            font-family: Arial Rounded MT;
+            color: #313131;
+            font-weight: bold;
+        }
+        .text-muted{
+            text-align: right;
+        }
+ 
+    }
+    .label-form { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        background-color:#313131;
+        opacity: 1; /* Firefox */
+      }
+      #label-form2 { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        background-color:#313131;
+        opacity: 1; /* Firefox */
+        width: 10px;
+      }
+
+}

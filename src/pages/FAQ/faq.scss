@@ -1,0 +1,25 @@
+.faq-page {
+    .container-page {
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        padding: 28px 48px;
+
+        .title {
+            margin-bottom: 72px;
+           font-weight: bold; 
+           font-size: 24px; 
+           text-align: center;
+           border-bottom: 10px;
+           padding-bottom: 28px;
+           border-bottom: 1px solid #D3D3D3;
+        }
+
+        p {
+            font-family: Arial Rounded MT;
+            font-size: 14px;
+            text-align: left;
+            letter-spacing: 0px;
+            color: #313131;
+        }
+    }
+}

@@ -1,0 +1,264 @@
+//FONT
+@font-face {
+    font-family: "Arial Rounded MT";
+    src: url("./assets/fonts/arial_rounded_mt_regular-webfont.eot");
+    src: url("./assets/fonts/arial_rounded_mt_regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/arial_rounded_mt_regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/arial_rounded_mt_regular-webfont.woff") format("woff"),
+    url("./assets/fonts/arial_rounded_mt_regular-webfont.ttf") format("truetype"),
+    url("./assets/fonts/arial_rounded_mt_regular-webfont.svg#Arial Rounded MT") format("svg");
+}
+
+@font-face {
+    font-family: "Arial Rounded MT Bold";
+    src: url("./assets/fonts/arial_rounded_mt_std_bold-webfont.eot");
+    src: url("./assets/fonts/arial_rounded_mt_std_bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/arial_rounded_mt_std_bold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/arial_rounded_mt_std_bold-webfont.woff") format("woff"),
+    url("./assets/fonts/arial_rounded_mt_std_bold-webfont.ttf") format("truetype"),
+    url("./assets/fonts/arial_rounded_mt_regular-webfont.svg#Arial Rounded MT") format("svg");
+}
+
+ //Font
+
+ .font-normal {
+     font-family: Arial Rounded MT;
+     margin-bottom: 0;
+ }
+ .font-bold {
+    font-family: Arial Rounded MT Bold;
+    margin-bottom: 0;
+}
+
+//Font Size
+.font-8 {
+    font-size: 8px;
+}
+.font-10 {
+    font-size: 10px;
+}
+.font-12 {
+    font-size: 12px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-22 {
+    font-size: 2px;
+}
+.font-24 {
+    font-size: 24px;
+}
+
+//Route
+.menu-page {
+    margin-top: 75px;
+
+    &.expanded {
+        margin-left: 278px;
+    }
+
+    &.unexpanded {
+        margin-left: 72px;
+    }
+}
+
+.menu-page-mobile {
+    margin-top: 75px;
+}
+
+//Body
+body {
+    background-color: #F2F2F4;
+    margin: 0;
+    padding: 0;
+}
+//Content Page
+.content-page {
+    padding: 24px;
+    height: 100%;
+    background-color: #F2F2F4;
+
+    .container-page {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
+
+//text decoration
+.text-justify{
+    text-align: justify;
+}
+
+//Link Text
+.no-link-text {
+    color: #313131;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+//FORM INPUT
+
+// Width Height
+.full-width {
+    width: 100%;
+}
+
+.max-width-none {
+    max-width: none;
+}
+
+//Scroll
+.modal-scroll {
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    margin: 0px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+//Color
+.color-red {
+    color: #FF3E3E;
+}
+
+//Line Height
+.line-height-16 {
+    line-height: 16px;
+}
+
+//Col
+.col-lg-6half {
+    width: 60.83333333%;
+}
+
+//Scroll Custom
+.custom-x-scrollbar-xs {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+    
+    /* Track */
+    &::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #ACA8A8; 
+        border-radius: 4px;
+    }
+    
+    // /* Handle on hover */
+    // &::-webkit-scrollbar-thumb:hover {
+    // background: #555; 
+    // }
+}
+
+.scroll-x-scrollbar {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.hidden-scrollbar {
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.custom-y-scrollbar-xs {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+    
+    /* Track */
+    &::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #ACA8A8; 
+        border-radius: 4px;
+    }
+    
+    // /* Handle on hover */
+    // &::-webkit-scrollbar-thumb:hover {
+    // background: #555; 
+    // }
+}
+
+//Padding
+.padding-left-0 {
+    padding-left: 0;
+}
+
+.padding-right-0 {
+    padding-right: 0;
+}
+
+//Margin
+
+.margin-left-60 {
+    margin-left: 60px;
+}
+
+.margin-left-40 {
+    margin-left: 40px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+.margin-bottom-32 {
+    margin-bottom: 32px;
+}
+
+.margin-left-6 {
+    margin-left: 6px;
+}
+
+.margin-left-8 {
+    margin-left: 8px;
+}
+
+.margin-right-8 {
+    margin-right: 8px;
+}
+
+.margin-left-16 {
+    margin-left: 16px;
+}
+
+.margin-right-16 {
+    margin-right: 16px;
+}

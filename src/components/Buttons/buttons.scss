@@ -1,0 +1,225 @@
+.buttons{
+
+    &.btn{
+        border: 0;
+        border-radius: 6px;
+        padding: 8px 20px;
+        font-family: Arial Rounded MT Bold;
+        outline: none;
+    }
+    
+    &.btn-primary{
+        color: #fff !important;
+        background-color: #0079C2;
+        border: 1px solid #0079C2;
+
+        &.active{
+            background-color: #00649F !important;
+            color: #fff !important;
+            border: 1px solid #00649F !important;
+        }
+        &:hover{
+            background-color: #5293C7;
+            border: 1px solid #5293C7;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #B2D6ED 1px solid;
+            color: #fff;
+            opacity: 1;
+            background-color: #B2D6ED;
+        }
+    }
+
+    &.btn-general{
+        color: #fff !important;
+        background-color: #0079C2;
+        border: 1px solid #0079C2;
+
+        &.active{
+            background-color: #00649F !important;
+            color: #fff !important;
+            border: 1px solid #00649F !important;
+        }
+        &:hover{
+            background-color: #5293C7;
+            border: 1px solid #5293C7;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #B2D6ED 1px solid;
+            color: #fff;
+            opacity: 1;
+            background-color: #B2D6ED;
+        }
+    }
+
+    &.btn-outline-primary{
+        color: #0079C2 !important;
+        background-color: transparent;
+        border: 1px solid #0079C2;
+
+        &.active{
+            background-color: #00649F !important;
+            color: #fff !important;
+            border: 1px solid #00649F !important;
+        }
+        &:hover{
+            background-color: #E1EEFF;
+            border: 1px solid #5293C7;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #B2D6ED 1px solid;
+            color: #B2D6ED;
+            opacity: 1;
+            background-color: transparent;
+        }
+    }
+
+    &.btn-outline-general{
+        color: #0079C2 !important;
+        background-color: transparent;
+        border: 1px solid #0079C2;
+
+        &.active{
+            background-color: #00649F !important;
+            color: #fff !important;
+            border: 1px solid #00649F !important;
+        }
+        &:hover{
+            background-color: #E1EEFF;
+            border: 1px solid #5293C7;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #B2D6ED 1px solid;
+            color: #B2D6ED;
+            opacity: 1;
+            background-color: transparent;
+        }
+    }
+
+    &.btn-tertiary{
+        color: #313131;
+        background-color: #E3E3E3;
+        border: 1px solid #E3E3E3;
+
+        &.active{
+            background-color: #C5C5C5 !important;
+            color: #313131 !important;
+            border: 1px solid #C5C5C5 !important;
+        }
+        &:hover{
+            background-color: #F5F5F5;
+            border: 1px solid #F5F5F5;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #F1F3F4 1px solid;
+            color: #C5C5C5;
+            opacity: 1;
+            background-color: #F1F3F4;
+        }
+    }
+
+    &.btn-success{
+        color: #fff;
+        background-color: #00B110;
+        border: 1px solid #00B110;
+
+        &.active{
+            background-color: #00850C !important;
+            color: #fff !important;
+            border: 1px solid #00850C !important;
+        }
+        &:hover{
+            background-color: #53E060;
+            border: 1px solid #53E060;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #9CE6A3 1px solid;
+            color: #fff;
+            opacity: 1;
+            background-color: #9CE6A3;
+        }
+    }
+
+    &.btn-warning{
+        color: #313131;
+        background-color: #F9C828;
+        border: 1px solid #F9C828;
+
+        &.active{
+            background-color: #E1B526 !important;
+            color: #313131 !important;
+            border: 1px solid #E1B526 !important;
+        }
+        &:hover{
+            background-color: #FADE82;
+            border: 1px solid #FADE82;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #FAECBC 1px solid;
+            color: #fff;
+            opacity: 1;
+            background-color: #FAECBC;
+        }
+    }
+
+    &.btn-danger{
+        color: #fff;
+        background-color: #FF3E3E;
+        border: 1px solid #FF3E3E;
+
+        &.active{
+            background-color: #CC3333 !important;
+            color: #fff !important;
+            border: 1px solid #CC3333 !important;
+        }
+        &:hover{
+            background-color: #FF6363;
+            border: 1px solid #FF6363;
+        }
+        &:disabled{
+            pointer-events: none;
+            border: #FFB3B3 1px solid;
+            color: #fff;
+            opacity: 1;
+            background-color: #FFB3B3;
+        }
+    }
+
+    &.btn-md{
+        padding: 12px 28px;
+        font-size: 14px;
+    }
+
+    &.btn-lg{
+        padding: 16px 32px;
+        font-size: 16px;
+    }
+
+    &.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+        color: #fff;
+        background-color: #0079C2 !important;
+        border-color: #0079C2 !important;
+    }
+    &.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
+        color: #fff;
+        background-color: #00B110;
+        border-color: #00B110;
+    }
+    &.btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active, .show > .btn-warning.dropdown-toggle {
+        color: #fff;
+        background-color: #F9C828;
+        border-color: #F9C828;
+    }
+    &.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
+        color: #fff;
+        background-color: #FF3E3E;
+        border-color: #FF3E3E;
+    }
+}

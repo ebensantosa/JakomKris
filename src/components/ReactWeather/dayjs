@@ -1,0 +1,7 @@
+langText: {
+
+en: { Wind: 'Wind2', Humidity: 'Humidity',},
+
+es: { Wind: 'Viento', Humidity: 'Humedad',}
+
+}

@@ -1,0 +1,125 @@
+.manajemen-toko-page {
+    .container-page {
+        .bottom-side {
+            .navigation-side {
+                position: relative;
+                z-index: 2;
+
+                .scroll-side {
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 2px;
+
+                    .btn-navbar {
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        min-width: 196px;
+                        color: #313131;
+                        // width: 230px;
+                        height: 40px;
+                        background: #FFFFFF 0% 0% no-repeat padding-box;
+                        border: 1px solid #C5C5C5;
+                        border-radius: 6px;
+                        font-size: 14px;
+    
+                        &.active {
+                            background: #FFFFFF 0% 0% no-repeat padding-box;
+                            border: 1px solid #0079C2;
+                            color: #0079C2;
+                        }
+    
+                        .title {
+                            margin: 0;
+                        }
+    
+                        .chevron {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-left: 12px;
+                            transition: all 0.2s;
+                        }
+    
+                        &:focus {
+                            background: #FFFFFF;
+                            border: 1px solid #0079C2;
+                            box-shadow: 0px 1px 4px #0079C266;
+                            color: #0079C2;
+                        }
+                        
+    
+                        // &.active {
+                        //     transform: rotate(180deg);
+                        // }
+                    }
+                }
+
+                .btn-arrow {
+                    position: absolute;
+                    cursor: pointer;
+                    top: 14px;
+                    
+                    img {
+                        width: 58px;
+                        height: 58px;
+                    }
+
+                    &.left {
+                        left: 0;
+                        transform: scaleX(-1);
+                    }
+
+                    &.right {
+                        right: 0;
+                    }
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+            .content-side {
+                background: #FFFFFF;
+                border-radius: 6px;
+                padding: 24px;
+
+                .row {
+                    margin: 0;
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns: repeat(auto-fit, minmax(180px, 180px));
+                    gap: 24px;
+                }
+
+                .col {
+                    padding: 0;
+                    width: 100%;
+                }
+
+                .item-empty {
+                    margin: 36px auto 32px auto;
+
+                    .container-content {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .icon {
+                            width: 275px;
+                            height: 182px;
+                        }
+    
+                        .text {
+                            width: 100%;
+                            text-align: center;
+                            letter-spacing: 0px;
+                            color: #313131;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

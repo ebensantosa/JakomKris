@@ -1,0 +1,44 @@
+.summary-dashboard {
+    .card{
+        border-radius: 5px;
+       padding: 10px;
+              margin-bottom: 10px;
+    }
+  
+    .title-map {
+       
+        font-weight: bold; 
+        font-size: 24px; 
+        text-align: center;
+        border-bottom: 10px;
+        padding-bottom: 28px;
+        border-bottom: 1px solid #D3D3D3;
+     }
+    .tab {
+        background-color: #f2f2f4;
+    }
+    .imageGempa{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .gempaTerkini{
+      
+        padding: 10px;
+    }
+
+    .icon{
+       width: 50%;
+    }
+
+    .peringatan{
+      
+            .image{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+    }
+}

@@ -1,0 +1,64 @@
+.faq {
+
+    .card{
+        background-color:white;
+        border: none;
+        padding-bottom: 24px;
+        border-top: 0.5px solid #C5C5C5;
+        
+        &.top{
+            border-top: none ;
+        }
+        &.bottom{
+            padding-top: 24px;
+        }
+    }
+    .card-header{
+        border: none;
+        padding: 0px;
+    }
+    .header-side {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        .chevron {
+            width: 16px;
+            height: 16px;
+            filter: invert(34%) sepia(78%) saturate(4151%) hue-rotate(184deg) brightness(78%) contrast(101%);
+        }
+
+        &.active {
+            .chevron {
+                transform: rotate(180deg);
+            }
+           .title-toggle{
+               border: none;
+           }
+        }
+        .decoration{
+            text-decoration: none;
+        }
+        .title-toggle{
+            padding-top: 24px;
+            color: #0079C2;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: white;
+            font-family: Arial Rounded MT;
+            margin: 0px;
+            padding: 0px;
+         
+            &:focus{
+                border: none;
+            }
+        }
+        .content{
+            font-size: 14px;
+            color: black;
+            font-family: Arial Rounded MT;
+
+        }
+    }
+}

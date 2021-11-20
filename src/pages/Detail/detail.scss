@@ -1,0 +1,111 @@
+.detail-page {
+  .container-page {
+    padding-top: 24px;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+
+    .title {
+      margin-bottom: 12px;
+      font-weight: bold;
+      font-size: 21px;
+      text-align: center;
+      border-bottom: 10px;
+      padding-bottom: 14px;
+    }
+
+    .tabs {
+      background-color: white;
+      margin-bottom: 24px;
+      height: 100%;
+    }
+
+    .Carousel {
+      margin-bottom: 24px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .imageChruch{
+      padding: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
+
+    .infoJemaat {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border-radius: 15px;
+      clear: both;
+      padding: 102px 0px;
+      height: fit-content;
+    }
+
+
+    .cardBencanaLeft{
+      border-radius: 15px;
+      clear: both;
+      padding: 24px;
+    }
+
+    .cardBencanaRight{
+      border-radius: 15px;
+      padding: 20px 24px;
+    }
+
+    .disasterCard{
+      border-radius: 15px;
+    }
+
+    .bodyCard {
+      display: block;
+      color: red;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      font-weight: 600;
+    }
+
+    .imageCard {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+
+    .box {
+      height: 20px;
+      width: 20px;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+    
+    .red {
+      background-color: red;
+    }
+    
+    .green {
+      background-color: green;
+    }
+
+    .orange {
+      background-color: orange;
+    }
+    
+    .yellow {
+      background-color: yellow;
+    }
+
+
+  }
+}

@@ -1,0 +1,40 @@
+.article-page{
+    background-color: white;
+    height: 256px;
+    .colomn{
+        padding: 0px;
+        margin: 0px;
+    }
+    .image{
+        // margin-top: 24px;
+        margin: 10px;
+        width: 133px;
+        height: 62px;
+        border-radius: 6px;
+    }
+    .content{
+        // margin-top: 24px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .title-article{
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial Rounded MT;
+    }
+    .date{
+        font-size: 10px;
+        font-family: Arial Rounded MT;
+        color: #95989A;
+    }
+    .circle{
+        font-size: 10px;
+        font-family: Arial Rounded MT;
+        color: #95989A;
+    }
+    .time{
+        font-size: 10px;
+        font-family: Arial Rounded MT;
+        color: #95989A;
+    }
+}

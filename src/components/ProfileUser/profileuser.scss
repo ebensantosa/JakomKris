@@ -1,0 +1,47 @@
+.image {
+
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    font-weight: bold;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    font-family: Arial Rounded MT;
+    color: black;
+}
+.text-upload{
+    text-align: center;
+}
+
+.label-upload {
+    cursor: pointer;
+
+   font-weight: bold;
+    font-family: Arial Rounded MT;
+    color: #0079C2;
+
+ }
+ 
+ #upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+
+
+ .text-desc{
+     color: #95989A;
+     font-size: 12px;
+ }
