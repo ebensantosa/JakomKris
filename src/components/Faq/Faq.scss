@@ -1,5 +1,8 @@
 .faq {
-
+    .description{
+        text-align: justify;
+        font-family: Arial Rounded MT;
+    }
     .card{
         background-color:white;
         border: none;
@@ -58,7 +61,7 @@
             font-size: 14px;
             color: black;
             font-family: Arial Rounded MT;
-
+            
         }
     }
 }

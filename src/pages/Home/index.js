@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
-import {MenuWelcomePeople, Banner } from '../../assets'
+import { MenuWelcomePeople, Banner } from '../../assets'
 import './home.scss'
 import { Freshchat } from 'reactjs-freshchat';
 import 'reactjs-freshchat/dist/index.css'
@@ -28,7 +28,7 @@ export default class Home extends Component {
                         <Col className="left-side" sm="12">
                             <div className="welcome">
                                 <img className="welcome-people" src={MenuWelcomePeople} alt="welcomePeople"></img>
-                                <h4 className="title font-bold">Selamat Datang Peserta Kebencanaan!</h4>
+                                <h4 className="title font-bold">Selamat Datang di Situs Gereja Tangguh Bencana !</h4>
                                 <p className="desc font-normal font-16">Senang bertemu denganmu kembali</p>
                             </div>
                             <div className="article">
@@ -36,18 +36,27 @@ export default class Home extends Component {
                                 <div className="content-side">
                                     <div className="carousel">
                                         <Carousel>
-                                            <Carousel.Item>
+                                            {/* <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src={Banner}
+                                                    src="https://camo.envatousercontent.com/86437a2a50b9afeb4e3c2ae9c3817966c86af45c/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c474b5858585167376569704c42734d49622f67697068792e676966"
                                                     alt="First slide"
                                                 />
-                                            </Carousel.Item>
+                                            </Carousel.Item> */}
+                                            {/* <Carousel.Item>
+                                                <img
+                                                    className="d-block w-100"
+                                                    src="https://data.whicdn.com/images/318718780/original.gif"
+                                                    alt="Second slide"
+                                                />
+                                            </Carousel.Item> */}
+
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src={Banner}
-                                                    alt="Second slide"
+                                                    src="https://web.kominfo.go.id/sites/default/files/Banner%20Bantu%20Masyarakat%20Tahu%20COVID-19.jpeg"
+                                                    alt="Third slide"
+                                            
                                                 />
                                             </Carousel.Item>
                                             <Carousel.Item>
@@ -83,14 +92,14 @@ export default class Home extends Component {
                         </Col>
                     </Row>
                 </Container>
-                
+
                 <Freshchat token={'2267ca1b-df60-4cde-8889-8ccd6456e234'}
                     // label="Chat"
                     ic_styles={{
-                        backgroundColor: '#00aae4', 
+                        backgroundColor: '#00aae4',
                         color: '#fff'
-                      }}
-                    />
+                    }}
+                />
             </div>
         )
     }

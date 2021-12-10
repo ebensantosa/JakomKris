@@ -8,14 +8,15 @@ export default function ReactWeathers() {
 
     const { data, isLoading, errorMessage } = useOpenWeather({
         key: '7833aae64dcd3fcf5a133f4352863fa2',
-        lat: '-52.520008',
-        lon: '111.03385',
+        lat: '-0.8917',
+        lon: '119.8707',
         lang: 'id',
         unit: 'metric'
 
     });
 
     const customStyles = {
+        innerWidth: '100%',
         fontFamily: 'Helvetica, sans-serif',
         gradientStart: '#0181C2',
         gradientMid: '#04A7F9',
@@ -38,7 +39,7 @@ export default function ReactWeathers() {
 
     return (
         <div>
-            <Carousel cols={2} rows={1} gap={12} loop className="Carousel" autoplay={2000} >
+            <Carousel cols={1} rows={1} gap={12} loop className="Carousel" autoplay={2000} >
                 <Carousel.Item> 
                     <Card>
                  

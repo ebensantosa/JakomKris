@@ -57,7 +57,7 @@ export default class Peta extends Component {
 
         // Make GET request with token
         await axios
-            .get('https://jsonplaceholder.typicode.com/users', {
+            .get('http://44.198.35.77:8080/api/churches', {
                 cancelToken: this.cancelToken.token,
             })
             .then((res) => {
@@ -102,7 +102,7 @@ export default class Peta extends Component {
                     {/* {this.state.message} */}
                     <ul className="list">
                         {this.state.userList.map((item) => {
-                            return <li key={item.id}>{item.name}</li>
+                            return <li key={item.properties.id}>{item.properties.name}</li>
                         })}
                     </ul>
                 </div>

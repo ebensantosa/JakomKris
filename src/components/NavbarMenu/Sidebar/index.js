@@ -40,10 +40,10 @@ export class Sidebar extends Component {
                         <img src={subMenu == 'artikel' ? MenuArticleFilled : MenuArticle} alt="menu-artikel" />
                         <p>{isSidebarExpand ? 'Artikel' : null}</p>
                     </Link>
-                    <Link to={`${process.env.PUBLIC_URL}/pesan`} className={"btn-menu " + (subMenu == 'pesan' ? 'active' : '')}>
+                    {/* <Link to={`${process.env.PUBLIC_URL}/pesan`} className={"btn-menu " + (subMenu == 'pesan' ? 'active' : '')}>
                         <img src={subMenu == 'pesan' ? MenuMessageFilled : MenuMessage} alt="menu-artikel" />
                         <p>{isSidebarExpand ? 'Pesan' : null}</p>
-                    </Link>
+                    </Link> */}
 
                     <Link to={`${process.env.PUBLIC_URL}/summarydashboard`} className={"btn-menu " + (subMenu == 'summary dashboard' ? 'active' : '')}>
                         <img src={subMenu == 'summarydashboard' ? MenuMessageFilled : MenuMessage} alt="menu-artikel" />
