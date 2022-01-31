@@ -28,7 +28,7 @@ export default class Home extends Component {
                         <Col className="left-side" sm="12">
                             <div className="welcome">
                                 <img className="welcome-people" src={MenuWelcomePeople} alt="welcomePeople"></img>
-                                <h4 className="title font-bold">Selamat Datang di Situs Gereja Tangguh Bencana !</h4>
+                                <h4 className="title font-bold">Selamat Datang di Situs Gereja Tangguh Bencana Indonesia !</h4>
                                 <p className="desc font-normal font-16">Senang bertemu denganmu kembali</p>
                             </div>
                             <div className="article">
