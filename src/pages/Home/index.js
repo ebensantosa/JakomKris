@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Carousel } from 'react-bootstrap'
+import { Container, Row, Col, Carousel} from 'react-bootstrap'
 import { MenuWelcomePeople, Banner } from '../../assets'
 import './home.scss'
-import { Freshchat } from 'reactjs-freshchat';
-import 'reactjs-freshchat/dist/index.css'
+// import { Freshchat } from 'reactjs-freshchat';
+// import 'reactjs-freshchat/dist/index.css'
+import Fab from '../../components/FloatingActionButton';
+// import { Button, lightColors, darkColors, Link } from 'react-floating-action-button'
 
 export default class Home extends Component {
     constructor(props) {
@@ -88,18 +90,12 @@ export default class Home extends Component {
 
                                     </div>
                                 </div>
+                                <Fab></Fab>
                             </div>
                         </Col>
                     </Row>
                 </Container>
 
-                <Freshchat token={'2267ca1b-df60-4cde-8889-8ccd6456e234'}
-                    // label="Chat"
-                    ic_styles={{
-                        backgroundColor: '#00aae4',
-                        color: '#fff'
-                    }}
-                />
             </div>
         )
     }

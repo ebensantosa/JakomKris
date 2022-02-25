@@ -30,6 +30,8 @@ import DoughnutChart from './DoughnutChart'
 import DoughnutChart2 from './DoughnutChart2'
 import DoughnutChart3 from './DoughnutChart3'
 import BarKesadaranGereja from './BarKesadaranGereja'
+import FloatingActionButton from './FloatingActionButton'
+
 
 
 export {
@@ -64,5 +66,6 @@ export {
     DoughnutChart,
     DoughnutChart2,
     DoughnutChart3,
-    BarKesadaranGereja
+    BarKesadaranGereja,
+    FloatingActionButton
 }

@@ -77,26 +77,6 @@
                 }
             }
         }
-        .right-side {
-            background-color: white;
-            width: auto;
-            height: 550px;
-            padding: 24px;
-            border-radius: 8px;
-
-            .title{
-                font-size: 20px;
-                font-weight: bold;
-                font-family: Arial;
-            }
-            .see-all{
-                padding-top: 10px;
-                justify-content: space-between;
-                font-size: 12px;
-                text-align: end;
-
-            }
-        }
 
         .carousel, .carousel-inner{
             border-radius: 10px;
