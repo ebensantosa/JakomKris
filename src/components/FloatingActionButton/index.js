@@ -1,30 +1,41 @@
 import React from 'react'
-import { Container, Button, Link } from 'react-floating-action-button'
+import { Container, Button, Link, lightColors, darkColors } from 'react-floating-action-button'
 import './fab.scss'
 
 const Fab = (props) => {
-    const {title, active, disabled, size, variant, block, className, ...rest} = props
+    const {} = props
 
     return (
-        <Container className = "container-item">
+        <Container>
             <Link href="wa.me/2385570401"
-                tooltip="Contact Our Whatsapp"
-                icon="far fa-sticky-note" 
+                tooltip="Whatsapp"
+                icon="fab fa-whatsapp" 
+                styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
             />
             <Link href="#"
-                tooltip="See our Facebook"
-                icon="fas fa-user-plus" 
-            />
-            <Link href="wa.me/2385570401"
-                tooltip="Contact Our Whatsapp"
-                icon="far fa-sticky-note" 
+                tooltip="Facebook"
+                icon="fab fa-facebook-f" 
+                styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
             />
             <Link href="#"
-                tooltip="See our Facebook"
-                icon="fas fa-user-plus" />
-            <Button className="fab-button"
+                tooltip="Instagram"
+                icon="fab fa-instagram" 
+                styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
+            />
+            <Link href="#"
+                tooltip="Email"
+                icon="fas fa-envelope" 
+                styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
+            />
+            <Link href="#"
+                tooltip="Youtube"
+                icon="fab fa-youtube" 
+                styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
+            />
+            <Button
                 icon="fas fa-plus"
                 rotate={true}
+                styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
              />
         </Container>
     )

@@ -10,6 +10,7 @@ import Detail from  './Detail'
 import Dashboard from './Dashboard'
 import InformasiDetail from './InformasiDetail' 
 import SummaryDashboard from './SummaryDashboard'
+import Gereja from './Gereja'
 
 export {
     Home,
@@ -23,5 +24,6 @@ export {
     Detail,
     Dashboard,
     InformasiDetail,
-    SummaryDashboard
+    SummaryDashboard,
+    Gereja
 }

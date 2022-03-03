@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { NavbarMenu } from '../../components'
-import { Home, Peta, Artikel, Pesan, TentangKami, UbahKataSandi, FAQ, Kontak, Detail, Dashboard, InformasiDetail, SummaryDashboard} from '../../pages'
+import { Home, Peta, Artikel, Pesan, TentangKami, UbahKataSandi, FAQ, Kontak, Detail, Dashboard, InformasiDetail, SummaryDashboard, Gereja} from '../../pages'
 import React, { Component } from 'react'
 import { isMobile } from "react-device-detect";
 
@@ -95,6 +95,12 @@ export class Routes extends Component {
 
                 <Route path="/summaryDashboard">
                     <SummaryDashboard
+                        onSubMenu={(value) => this.handleSubMenu(value)}
+                    />
+                </Route>
+
+                <Route path="/gereja">
+                    <Gereja
                         onSubMenu={(value) => this.handleSubMenu(value)}
                     />
                 </Route>

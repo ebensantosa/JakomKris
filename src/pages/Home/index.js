@@ -38,21 +38,6 @@ export default class Home extends Component {
                                 <div className="content-side">
                                     <div className="carousel">
                                         <Carousel>
-                                            {/* <Carousel.Item>
-                                                <img
-                                                    className="d-block w-100"
-                                                    src="https://camo.envatousercontent.com/86437a2a50b9afeb4e3c2ae9c3817966c86af45c/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c474b5858585167376569704c42734d49622f67697068792e676966"
-                                                    alt="First slide"
-                                                />
-                                            </Carousel.Item> */}
-                                            {/* <Carousel.Item>
-                                                <img
-                                                    className="d-block w-100"
-                                                    src="https://data.whicdn.com/images/318718780/original.gif"
-                                                    alt="Second slide"
-                                                />
-                                            </Carousel.Item> */}
-
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"

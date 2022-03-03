@@ -32,8 +32,6 @@ import DoughnutChart3 from './DoughnutChart3'
 import BarKesadaranGereja from './BarKesadaranGereja'
 import FloatingActionButton from './FloatingActionButton'
 
-
-
 export {
     //Navbar Menu
     NavbarMenu,

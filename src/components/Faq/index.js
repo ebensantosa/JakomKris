@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, Button, Accordion } from 'react-bootstrap'
+import { Card, Accordion } from 'react-bootstrap'
 import { MenuChevron } from '../../assets';
 import './Faq.scss'
 

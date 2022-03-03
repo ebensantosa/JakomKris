@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col, Container, Spinner, Card, Tabs, Tab} from 'react-bootstrap'
+import { Row, Col, Container, Spinner, Tabs, Tab} from 'react-bootstrap'
 import './kontak.scss'
 import { BackgroundContact, LogoEmail, LogoFacebook, LogoInstagram, LogoWhatsapp, LogoYoutube } from '../../assets'
 

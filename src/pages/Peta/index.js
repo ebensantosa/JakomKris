@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component} from 'react'
 import './peta.scss'
 import Maps from '../../components/Maps';
 import axios from 'axios';
+
 
 export default class Peta extends Component {
 
@@ -83,15 +84,37 @@ export default class Peta extends Component {
         })
     }
 
+    handleChange(checked) {
+        this.setState({ checked });
+      }
+
 
     render() {
         return (
             <div>
+                {/* <div className = "buttonSwitch">
+                    <ButtonGroup toggle>
+                        {radios.map((radio, idx) => (
+                        <ToggleButton
+                            key={idx}
+                            type="radio"
+                            variant="secondary"
+                            name="radio"
+                            value={radio.value}
+                            checked={radioValue === radio.value}
+                            onChange={(e) => setRadioValue(e.currentTarget.value)}
+                        >
+                            {radio.name}
+                        </ToggleButton>
+                        ))}
+                    </ButtonGroup>
+                </div> */}
+                
                 <div className = "map page">
                     <Maps></Maps>
                 </div>
 
-                <div className="livesearch">
+                <div className="liveSearch">
                     <input
                         onClick={this.inputFocus}
                         ref={this.node}
