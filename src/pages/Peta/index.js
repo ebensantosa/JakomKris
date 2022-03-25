@@ -1,4 +1,5 @@
 import React, { Component} from 'react'
+import { Tabs, Tab} from 'react-bootstrap'
 import './peta.scss'
 import Maps from '../../components/Maps';
 import axios from 'axios';
@@ -91,26 +92,8 @@ export default class Peta extends Component {
 
     render() {
         return (
-            <div>
-                {/* <div className = "buttonSwitch">
-                    <ButtonGroup toggle>
-                        {radios.map((radio, idx) => (
-                        <ToggleButton
-                            key={idx}
-                            type="radio"
-                            variant="secondary"
-                            name="radio"
-                            value={radio.value}
-                            checked={radioValue === radio.value}
-                            onChange={(e) => setRadioValue(e.currentTarget.value)}
-                        >
-                            {radio.name}
-                        </ToggleButton>
-                        ))}
-                    </ButtonGroup>
-                </div> */}
-                
-                <div className = "map page">
+            <div className = "map-page">
+                <div className = "map">
                     <Maps></Maps>
                 </div>
 

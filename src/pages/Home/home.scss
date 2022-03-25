@@ -62,17 +62,6 @@
                             text-overflow: ellipsis;
                             margin-bottom: 12px;
                         }
-
-                        .date-time {
-                            display: flex;
-                            align-items: center;
-                            color: #95989A;
-
-                            .dot {
-                                margin: -10px;
-                                filter: invert(69%) sepia(8%) saturate(101%) hue-rotate(161deg) brightness(86%) contrast(90%);
-                            }
-                        }
                     }
                 }
             }
@@ -86,6 +75,14 @@
             visibility: hidden;
             display: none;
         }
+    }
+
+    .fab-container {
+        bottom: 3vh;
+        position: fixed;
+        margin: 1em;
+        right: 3vw;
+        z-index: 1;
     }
 
  

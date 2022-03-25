@@ -64,7 +64,7 @@ export default class Kontak extends Component {
                                                 </Col>
                                                 <Col>
                                                 <div>
-                                                    <a href = "https://www.youtube.com/channel/UCGHNka1kKbldKx9Yx0PGIIg">
+                                                    <a href = "wa.me/6281261332242">
                                                         <img 
                                                             src = {LogoWhatsapp}
                                                             width = "75px"

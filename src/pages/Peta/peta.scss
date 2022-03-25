@@ -1,15 +1,23 @@
-.map content{
-    position: relative;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
+.map-page{
+    
+
+    .map content{
+        position: relative;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+    }
+    
+    .liveSearch{
+        position: absolute;
+        top: 80px;
+        right: 2px;
+    }
+
+    
+
 }
 
-.livesearch{
-    position: absolute;
-    top: 80px;
-    right: 2px;
-}
 
 

@@ -20,7 +20,9 @@ export default class Gereja extends Component {
         return (
             <div className = "content-page">
                 <Container bsPrefix = "container-page">
-                    
+                    <div className = "content-side">
+                        mantap
+                    </div>
                 </Container>
             </div>
         )

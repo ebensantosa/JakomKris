@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Carousel} from 'react-bootstrap'
-import { MenuWelcomePeople, Banner } from '../../assets'
+import { MenuWelcomePeople, Banner, LogoWebPortal, LogoMap, LogoChurch, LogoData } from '../../assets'
 import './home.scss'
 // import { Freshchat } from 'reactjs-freshchat';
 // import 'reactjs-freshchat/dist/index.css'
@@ -61,6 +61,46 @@ export default class Home extends Component {
                                         <div className="header-side">
                                             <h4 className="title font-bold">Apa itu Gereja tangguh Bencana ? </h4>
                                         </div>
+                                        {/* <div className = "images">
+                                            <Container className = "font-16 desc text-justify">
+                                                <Row>
+                                                    <Col>
+                                                        <img 
+                                                            src = {LogoWebPortal}
+                                                            width = "75px"
+                                                            height = "75px"
+                                                        />
+                                                        portal kajian kebencanaan dengan gereja sebagai pusat informasi untuk mitigasi kebencanaan.
+                                                    </Col>
+                                                    <Col>
+                                                        <img 
+                                                            src = {LogoMap}
+                                                            width = "75px"
+                                                            height = "75px"
+                                                        />
+                                                        pemetaan lokasi masing-masing gereja untuk wilayah DIY dan Palu.
+                                                    </Col>
+                                                </Row>
+                                                <Row>
+                                                    <Col>
+                                                        <img 
+                                                            src = {LogoChurch}
+                                                            width = "75px"
+                                                            height = "75px"
+                                                        />
+                                                        Informasi terkait kesiapan gereja terhadap bencana.
+                                                    </Col>
+                                                    <Col>
+                                                        <img 
+                                                            src = {LogoData}
+                                                            width = "75px"
+                                                            height = "75px"
+                                                        />
+                                                        Menyediakan data spasial untuk kepentingan analisa.
+                                                    </Col>
+                                                </Row>
+                                            </Container>
+                                        </div> */}
                                         <p className="font-16 desc text-justify">
                                             &emsp; JakomKris adalah portal hasil kajian risiko yang menggunakan arcgis server sebagai data services yang menggambarkan cakupan wilayah ancaman bencana, populasi terdampak, potensi kerugian fisik (Rp.), potensi kerugian ekonomi (Rp.) dan potensi kerusakan lingkungan (ha) dan terintegrasi dengan realisasi pelaksanaan kegiatan pengurangan risiko bencana sebagai tool monitoring penurunan indeks risiko bencana.
                                             Kontribusi yang diberikan oleh United Nation Development Program (UNDP) adalah dengan menyiapkan data services yang menjadi data utama dalam InaRISK.
@@ -75,12 +115,11 @@ export default class Home extends Component {
 
                                     </div>
                                 </div>
-                                <Fab></Fab>
                             </div>
                         </Col>
                     </Row>
                 </Container>
-
+                <Fab></Fab>                      
             </div>
         )
     }

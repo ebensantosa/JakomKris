@@ -7,27 +7,27 @@ const Fab = (props) => {
 
     return (
         <Container>
-            <Link href="wa.me/2385570401"
+            <Link href="wa.me/6281261332242"
                 tooltip="Whatsapp"
                 icon="fab fa-whatsapp" 
                 styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
             />
-            <Link href="#"
+            <Link href="https://www.facebook.com/jakomkris.pbi"
                 tooltip="Facebook"
                 icon="fab fa-facebook-f" 
                 styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
             />
-            <Link href="#"
+            <Link href="https://www.instagram.com/jakomkrispbi/?hl=en"
                 tooltip="Instagram"
                 icon="fab fa-instagram" 
                 styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
             />
-            <Link href="#"
+            <Link href="mailto:jakomkris@gmail.com"
                 tooltip="Email"
                 icon="fas fa-envelope" 
                 styles={{backgroundColor: darkColors.blue, color: lightColors.white}}
             />
-            <Link href="#"
+            <Link href="https://www.youtube.com/channel/UCGHNka1kKbldKx9Yx0PGIIg"
                 tooltip="Youtube"
                 icon="fab fa-youtube" 
                 styles={{backgroundColor: darkColors.blue, color: lightColors.white}}

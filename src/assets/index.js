@@ -43,6 +43,12 @@ import LogoLocation from  './images/logos/logo_location.png'
 import LogoYoutube from './images/logos/logo_youtube.png'
 import LogoEmail from './images/logos/logo_email.png'
 import Danger from './images/logos/danger.png'
+import LogoMap from './images/logos/mapping.png'
+import LogoWebPortal from './images/logos/webPortal.png'
+import LogoChurch from './images/logos/church.png'
+import LogoData from './images/logos/data.png'
+
+
 //Backgrounds
 import BackgroundIndomaret from './images/backgrounds/bg_indomaret.png'
 import BackgroundContact from './images/backgrounds/bg_contact_us.jpg'
@@ -104,8 +110,11 @@ export {
     LogoYoutube,
     LogoEmail,
     Danger,
-
-
+    LogoMap,
+    LogoWebPortal,
+    LogoChurch,
+    LogoData,
+    
     //Thumbnail
     DefaultState,
 
